@@ -1,0 +1,16 @@
+#8
+triangulo=input("ingrese el nombre de la figura:")
+h=float(input("ingrese el valor de la altura:"))
+b=float(input("ingrese el valor de la base:"))
+area=(b*h)/2
+figura_grande= (area>50)
+print(" + #################### +")
+print(" + # area del triangulo +")
+print(" + #################### +")
+print("#")
+print(" + # triangulo:",triangulo)
+print(" + # item h:",h,"la altura")
+print(" + # item b:",b," la base")
+print(" + # area:",area)
+print(" + #################### +")
+print("figura_grande?:",figura_grande)

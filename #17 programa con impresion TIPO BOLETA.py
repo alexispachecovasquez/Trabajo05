@@ -1,0 +1,17 @@
+#17
+pelicula=input("ingrese el nombre de la pelicula:")
+entradas=int(input("ingrese el numero de entradas compradas:"))
+precio=float(input("ingrese el precio por una entrada:"))
+gasto_en_entradas=(entradas*precio)
+cinta_buena=(gasto_en_entradas>20)
+print("#######################")
+print("# boleta de entrada al cine #")
+print("#######################")
+print("#")
+print("# pelicula:",pelicula)
+print("# item:",entradas,"entradas")
+print("# precio:",precio)
+print("# gasto:",gasto_en_entradas)
+print("#######################")
+print("cinta_buena?",cinta_buena)
+

@@ -1,0 +1,13 @@
+#20
+x= float(input("Ingrese el valor del primer miembro del binomio:"))
+y=float(input("Ingrese el valor del segundo miembro del binomio:"))
+binomio_cuadrado=(x**2)+(2*x*y)+(y**2)
+f=(binomio_cuadrado>100)
+print(" + # Boleta de Binomio Cuadrado  +")
+print(" + #################### +")
+print("#")
+print(" + # primer miembro del binomio:",x)
+print(" + # segundo miembro del binomio :",y)
+print(" + # binomio al cuadrado :",binomio_cuadrado)
+print(" + #################### +")
+print("Es un gran valor?:",f)

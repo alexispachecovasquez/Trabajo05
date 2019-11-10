@@ -1,0 +1,16 @@
+#3
+alumno=input("ingrese el nombre del alumno:")
+nota1=int(input("ingrese la nota1:"))
+nota2=int(input("ingrese la nota2:"))
+promedio=(nota1+nota2)/2
+estudiante_esforzado = (promedio > 11)
+print(" + #################### +")
+print(" + # resultado de merito  +")
+print(" + #################### +")
+print("#")
+print(" + # alumno:",alumno)
+print(" + # item :",nota1," primer examen")
+print(" + # item :",nota2," segundo examen")
+print(" + # promedio :",promedio)
+print(" + #################### +")
+print("estudiante_esforzado?:",estudiante_esforzado)
